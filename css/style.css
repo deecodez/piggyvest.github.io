@@ -23,8 +23,8 @@ main{
     background: #fff;
     border-radius: 30px;
     border-bottom-left-radius: 0;
-    width: 60vh;
-    min-height: 120vh;
+    width: 62vh;
+    min-height: 125vh;
     padding-left: 2rem;
     display: flex;
     justify-content: center;
@@ -61,7 +61,7 @@ button{
     border: none;
     border-radius: 5px;
     border-bottom-left-radius: 0;
-    width: 53vh;
+    width: 56vh;
     height: 7vh;
     color: #fff;
     text-transform: uppercase;
@@ -71,15 +71,15 @@ input, select{
     margin-bottom: 1.5rem;
     margin-top: 0.5rem;
     padding: 20px 20px 20px 20px;
-    width: 350px;
+    width: 330px;
     background: #EDF2F7;
     border: none;
 }
 select{
-    width: 390px;
+    width: 370px;
 }
 option{
-    padding-bottom: 1rem;
+    margin-bottom: 5rem;
 }
 .anchor_link{
     display:flex;
