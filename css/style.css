@@ -22,7 +22,7 @@ main{
 }
 .card{
     background: #fff;
-    border-radius: 30px;
+    border-radius: 20px;
     border-bottom-left-radius: 0;
     width: 62vh;
     min-height: 130vh;
