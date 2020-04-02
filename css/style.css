@@ -18,6 +18,7 @@ main{
     justify-content: center;
     display:flex;
     align-items: center;
+    cursor: pointer;
 }
 .card{
     background: #fff;
@@ -66,6 +67,11 @@ button{
     color: #fff;
     text-transform: uppercase;
     cursor: pointer;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+button:hover{
+    background: #062863;
 }
 input, select{
     margin-bottom: 1.5rem;
@@ -78,9 +84,19 @@ input, select{
 select{
     width: 370px;
 }
-option{
-    margin-bottom: 5rem;
-}
+.custom-select {
+    position: relative;
+  }
+  .select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+  }
 .anchor_link{
     display:flex;
     justify-content: center;
